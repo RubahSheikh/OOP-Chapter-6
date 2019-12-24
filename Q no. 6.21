@@ -1,0 +1,19 @@
+#include <iostream> 
+using namespace std; 
+int Factor(){
+	for(int a=1;a<=10;a++){
+	
+	if(a%3==0){
+		cout<<a<<"\tTrue\n";
+	}
+	else if(a%3 !=0){
+		cout<<a<<"\tFalse\n";
+	}	
+	}
+}
+int main(){
+	
+  cout<<Factor();
+  
+ 
+}
