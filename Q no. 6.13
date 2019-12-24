@@ -1,0 +1,16 @@
+#include <cmath> 
+#include <iostream> 
+using namespace std; 
+  
+
+int main() 
+{ 
+    // initializing value 
+    double x = 12.5, y = 13.3, z = 14.8; 
+  
+    // Displaying the nearest values 
+    // of x, y and z 
+    cout << "Nearest value of x("<<x<<") :" << round(x) << "\n"; 
+    cout << "Nearest value of y("<<y<<") :" << round(y) << "\n"; 
+    cout << "Nearest value of z("<<z<<") :" << round(z) << "\n"; 
+}
