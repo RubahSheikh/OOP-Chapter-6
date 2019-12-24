@@ -1,0 +1,24 @@
+#include <ctime> 
+#include <iostream> 
+using namespace std; 
+
+int main() 
+{
+   int number ;
+ 
+   int randNum = 0; // count 
+   
+   /* Intializes random number generator */
+   srand((unsigned) time(0));
+ 
+   /* Print 5 random numbers multiple of 3 */
+   do {
+      number =  rand()%12;  
+      if( (number%3) == 0 ) {
+       cout<< number<<endl;
+       randNum++;  // increment 
+      }
+   } while(randNum < 5);
+   
+   return(0);
+}
