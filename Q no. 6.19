@@ -1,0 +1,19 @@
+#include <ctime> 
+#include <iostream> 
+using namespace std; 
+double hypotenous(double a,double b){
+	 double hyp;
+	 hyp=(a*a)+(b*b);
+	 return hyp;
+	 
+}
+
+int main(){
+	double b,p,h;
+	cout<<"Enter Base";
+	cin>>b;
+	cout<<"Enter Perpendicular";
+	cin>>p;
+	cout<<hypotenous(b,p);
+
+}
