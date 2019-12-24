@@ -1,0 +1,27 @@
+#include<iostream>s
+using namespace std;
+float fahr(float ){
+	float celsius;
+	float fahrenheit = (celsius * 9.0) / 5.0 + 32;
+	return fahrenheit;
+    cout << "The temperature in Fahrenheit : " << fahrenheit << endl;
+}
+float cel(float ){
+	float fahrenheit;
+	float celsius= fahrenheit - 32 * 5 / 9;
+	cout << "The temperature in Celsius    : " << celsius << endl;
+}
+int main()
+{	float celsius,fahrenheit;
+    cout << "Enter the temperature in Celsius : ";
+    cin >> celsius;
+    cout<<fahr(celsius );
+    cout << "Enter the temperature in fahrenheit : ";
+    cin >> fahrenheit;
+    cout<<cel(fahrenheit );
+    
+
+
+
+    return 0;
+}
